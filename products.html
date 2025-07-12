@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> climate change</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="css/final.css" type="text/css">
+
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  background-color: sand;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/oce.jpeg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+</style>
+
+</head>
+<body w3-sand w3-grayscale>
+<br>
+<br>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s2">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="products.html" class="w3-button w3-block w3-black"> SHOPPING CART</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="register.html" class="w3-button w3-block w3-black">REGISTER</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="login.html" class="w3-button w3-block w3-black">LOGIN</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="search.html" class="w3-button w3-block w3-black">SEARCH</a>
+    </div>
+    <div class="w3-col s2">
+      <a href="contact.html" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+<br>
+
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide"> PRODUCTS THAT CAN HELP </span></h5>
+<!-- 
+<p> here are some recommended products that are enviornmentally-friendly that you can purchase.</p> 
+  -->
+
+<!-- register Container -->
+<div class="w3-container" id="register">
+  
+    <br>
+    <br>
+    <br>
+    <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+
+    <div class="w3-half">
+      <img src="images/bag.avif" alt="bags" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px;'>
+
+      <h3> Reusable Bags </h3>
+      <p> pack of two bags that are made of organic cotton with no traces of plastic, reducing the amount of single use plastic bags polluting the environment. </p>
+      <p>Enter quantity: 
+       <input type=number id=bags> </p>
+      <p>The price is: 
+        <input type=number id=price1 readonly value=16.50> </p>
+      <p>Total is:<input type=number readonly id=subtotal1> </p>
+    </div>
+    </div>
+
+    <div class="w3-half">
+      <img src="images/wrap2.png" alt="wraps" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px'>
+
+      <h3> Reusable Food Wraps</h3>
+      <p> these wraps are made of cotton and beeswax instead of plastic and are protective, making sure that your food stays fresh while also being eco friendly. </p>
+      <p>Enter quantity: 
+       <input type=number id=wraps> </p>
+      <p>The price is: 
+        <input type=number id=price2 readonly value=20.00> </p>
+      <p>Total is:<input type=number readonly id=subtotal2> </p>
+    </div>
+    </div>
+
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+       <div class="w3-half">
+      <img src="images/utensils.webp" alt="utensils" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px'>
+
+      <h3>Bamboo Utensils</h3>
+      <p> disposable cutlery including spoons, forks and knives made entirely of bamboo, it's completely biodegradable and compostable and leaves no trace. </p>
+      <p>Enter quantity: 
+       <input type=number id=utensils> </p>
+      <p>The price is: 
+        <input type=number id=price3 readonly value=11.50> </p>
+      <p>Total is:<input type=number readonly id=subtotal3> </p>
+    </div>
+    </div>
+
+    <div class="w3-half">
+      <img src="images/straws.webp" alt="straws" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px'>
+      <h3>Metal Straws</h3>
+      <p> this contains a pack of two stainless steel straws, these straws are easy to store and quick to use on the go, they are both hygienic and eco friendly. </p>
+      <p>Enter quantity: 
+       <input type=number id=straws> </p>
+      <p>The price is: 
+        <input type=number id=price4 readonly value=5.00> </p>
+      <p>Total is:<input type=number readonly id=subtotal4> </p>
+    </div>
+    </div>
+
+  </div>
+
+    <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+       <div class="w3-half">
+      <img src="images/bottle.webp" alt="bottles" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px'>
+
+      <h3>Reusable Water Bottles</h3>
+      <p> eco friendly, large, and reusable, this bottle is made of a durable material that is meant to last while also keeping your water fresh and cold throughout the day. </p>
+      <p>Enter quantity: 
+       <input type=number id=bottles> </p>
+      <p>The price is: 
+        <input type=number id=price5 readonly value=32.00> </p>
+      <p>Total is:<input type=number readonly id=subtotal5> </p>
+    </div>
+    </div>
+
+    <div class="w3-half">
+      <img src="images/compost.jpeg" alt="compost" class="model">
+      <div class='w3-content forms' style='max-width:500px; padding: 10px'>
+
+      <h3>Compost Bins</h3>
+      <p> a useful container into which you can place organic waste to turn into compost, the lid will help control odors and the handle will help with carrying the compost out. </p>
+      <p>Enter quantity: 
+       <input type=number id=compost> </p>
+      <p>The price is: 
+        <input type=number id=price6 readonly value=25.00> </p>
+      <p>Total is:<input type=number readonly id=subtotal6> </p>
+    </div>
+
+    </div>
+
+  </div>
+
+  <br>
+
+  <button id="doFade"> BUY ITEMS </button>
+  <!--
+  <button id="fadeRev">Unfade the content</button>
+  -->
+
+  <hr>
+  <br>
+
+
+<div class="box">
+
+<div id="source" class="w3-content forms" style="max-width:700px;">
+
+
+<div class="w3-content forms" style="max-width:700px;">
+
+  <form method="post" action="products.php">
+  <br>
+  <p class="w3-tag"> USER INFORMATION: </p> 
+  <p> First name: </p> <input type="text" name="First-Name" ><br> 
+  <p> Last name: </p><input type="text" name="Last-Name" ><br><br>
+
+  <p>Zip Code: </p><input type=number name="Zip-Code"><p>
+  <p>Email: </p><input type=email name="Email"><p>
+
+  <p>Address: </p><input type=text name="Address"><p>
+
+  <p>Credit Card Number: </p><input type=number name="CreditCard-Number"><p>
+
+  <p>Phone Number: </p><input type=number name="Phone-Number"><p>
+
+  <p>Credit card:</p>
+      <p> AMEX<input name="CreditCard-Type" type="radio" value="Amex">
+      Visa<input name="CreditCard-Type" type="radio" value="Visa" >
+      </p>
+<p>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+<br>
+<p>
+
+</form> 
+
+</div>
+
+</div>
+
+</div>
+
+<br>
+<hr>
+
+
+<p id="demo"> </p>
+
+
+  
+</div>
+
+<div style='padding:10px;'>
+   <p style='font-size: 9px; text-align: left;'> CITATIONS: </p>
+   <p style='font-size: 7px; text-align: left;'> bag: https://static.independent.co.uk/2021/04/22/14/reusable%20bags%20indybest.jpg?width=1200 </p>
+   <p style='font-size: 7px; text-align: left;'> wrap: https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/reusable-beeswax-1579042994.png?crop=0.502xw:1.00xh;0.226xw,0&resize=640:*
+   </p>
+   <p style='font-size: 7px; text-align: left;'> utensils: https://cdn.shopify.com/s/files/1/0093/5618/1562/products/ReusableBambooCutlery-Setof5_opt_8_680x680_crop_center.jpg?v=1631289948
+   </p>
+   <p style='font-size: 7px; text-align: left;'> straws:  https://www.lazerdesigns.com/blog/wp-content/uploads/2019/11/Capture.png
+   </p>
+   <p style='font-size: 7px; text-align: left;'> bottle:  https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fairharborclothing.com%2Fblogs%2Fnews%2Fthe-impact-of-reusable-water-bottles&psig=AOvVaw2dLCoB56ihzoOymQNMI6Ux&ust=1670890337673000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiRmdrl8vsCFQAAAAAdAAAAABAE
+   </p>
+    <p style='font-size: 7px; text-align: left;'> bin:  https://www.refinery29.com/images/9677756.jpeg
+   </p>
+</div>
+
+<br>
+<!-- End page content -->
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p> Sara Gizabi 2022 </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="products.js"></script>
+<script> 
+
+ $(document).ready(function() {
+  $('.box').hide();
+  $('button').on('click', function() {
+    // image will fadin using time (8 seconds)
+    $('.box').fadeIn(400);
+  })
+
+});
+
+  //var source = document.getElementById('source');
+  //  document.getElementById('doFade').onclick = function () {
+  //      source.classList.toggle('fade');
+  //  }
+
+  // document.getElementById('fadeRev').onclick = function () {
+  //    source.classList.toggle('nofade');
+  //}
+
+</script>
+
+</body>
+</html>
+
+<!-- 
+image citations: 
+
+
+
+
+
+-->
+
+

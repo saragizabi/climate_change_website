@@ -1,0 +1,6 @@
+item - reuasble bags:$16.50:"pack of two reusable bags made of organic cotton, durable":stock - 250
+item - reusable wraps:$20.00:"these reusable food wraps are made of cotton and beeswax, they are thick and protective":stock - 250
+item - bamboo utensils:$11.50:"disposable cutlery made entirely of bamboo, making it completely biodegradable":stock - 200
+item - metal straws:$5.00:"contains a pack of two stainless steel straws, easy to store and quick to use on the go, they are both hygienic and eco friendly":stock - 300
+item - reuasble bottles:$32.00:"eco friendly, large, and reusable, this bottle is helpful to stay hydrated":stock - 200
+item - compost bin:$25.00:"a useful compost bin in which you can place organic waste to turn into compost":stock - 150

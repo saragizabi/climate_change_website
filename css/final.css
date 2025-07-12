@@ -1,0 +1,135 @@
+/*CSS for band website*/
+
+/*Layout styles*/
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+li {
+	text-align: left;
+}
+
+div li {
+	text-align: left;
+}
+
+.header {
+  		flex: 70%;
+  		background-image: url("../images/oce.jpeg");
+  		height: auto;
+  		width: auto;
+}
+
+.model {
+	width: 500px;
+	height: 500px; 
+	/* width: 60%; */
+}
+
+.forms {
+	text-align: center;
+	margin: 0 auto;
+  display: block;
+  background-color: lightseagreen;
+  border: 1px single black;
+
+}
+
+.mainContent2 {
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.mainContent {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+video {
+	width: 100%;
+	margin:	auto;
+	text-align: center;
+}
+
+
+p {
+	/*font-family: Arial, sans-serif; 
+	font-size: 1.2em; */
+	text-align: center;
+	/* background-color: lightseagreen; */
+	border: 1px single white;
+	padding: 4px;
+	/* width: 250px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the js button */
+.button {
+  text-align: center;
+  background-color: #lightseagreen;
+  border:1px solid #darkgreen;
+  width: 200px;
+  padding: 10px;
+  opacity: 1;
+  margin: 0 auto;
+  display: block;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button:active {
+  background-color: #FFA7C3;
+}
+
+.nav {
+	font-family:  sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.links, .selected {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.header {
+	font-size: 4em;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+/*Link styles*/
+
+a:link, a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a:focus, a:hover {
+	color: yellow;
+}
+
+a:active {
+	opacity: 0.5;
+}
+
+a.selected:link, a.selected:visited {
+	color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+  	width: 100%;
+  }
+}
